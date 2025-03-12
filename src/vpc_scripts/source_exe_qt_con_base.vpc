@@ -1,0 +1,13 @@
+$Include "$SRCDIR\vpc_scripts\source_exe_qt_win32_base.vpc"
+
+$Configuration
+{
+	$Linker
+	{
+		$SubSystem		"Console (/SUBSYSTEM:CONSOLE)"
+	}
+	$Compiler
+	{
+		$AdditionalIncludeDirectories		"$BASE,..\common"
+	}
+}
