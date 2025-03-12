@@ -1,0 +1,3 @@
+[submodule "src/thirdparty/lgpl/qt"]
+	path = src/thirdparty/lgpl/qt
+	url = https://github.com/StrataSource/qtbase
